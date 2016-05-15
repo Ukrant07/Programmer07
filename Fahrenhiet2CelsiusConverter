@@ -1,0 +1,18 @@
+Public Class Form1
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+      Dim As FCTemp, Celsius, Fahrenhiet As Single
+      Dim strFCTemp As String
+      Dim Prompt As String = "Please enter a value for Fahrenheit or Celcius temperature"
+      Do
+        strFCTemp = InputBox(Prompt Fahrenheit to Celsius Converter")
+        If strTemp <> "" Then
+          FCTemp = Csng(strFCTemp)
+          Celsiuc = ((FCTTemp -32) / 9) * 5
+          Fahrenheit = ((FCTemp *9) / 5) + 32
+          MsgBox(FCTemp & "° Fahrenheit is " & Celsius &"° Celsius." & vbCrLf & FCTemp & "° Celsius is " & Fahrenheit & "° Fahrenheit.", , "Converted Temperature")
+        End If
+      Loop While strFCTemp <> ""
+      Me.Close()
+    End Sub
+End Classstr
